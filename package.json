@@ -1,7 +1,7 @@
 {
-    "name": "jsdom",
+    "name": "jsdom-nogyp",
     "version": "0.8.3",
-    "description": "A JavaScript implementation of the W3C DOM",
+    "description": "A JavaScript implementation of the W3C DOM, forked from jsdom, remove dependencies to contextify and node-gyp",
     "keywords": ["dom", "w3c", "html"],
     "maintainers": [
         "Elijah Insua <tmpvar@gmail.com> (http://tmpvar.com)",
@@ -54,7 +54,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/tmpvar/jsdom.git"
+        "url": "git://github.com/dexteryy/jsdom-nogyp.git"
     },
     "implements": [
         "http://www.w3.org/TR/REC-DOM-Level-1"
@@ -65,8 +65,7 @@
        "request": "2.x",
        "xmlhttprequest": ">=1.5.0",
        "cssom": "~0.2.5",
-       "cssstyle": "~0.2.3",
-       "contextify": "~0.1.5"
+       "cssstyle": "~0.2.3"
     },
     "devDependencies" : {
       "nodeunit": "~0.8.0",
