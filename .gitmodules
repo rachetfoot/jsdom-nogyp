@@ -1,0 +1,3 @@
+[submodule "lib/jsdom/CSSOM"]
+	path = lib/jsdom/CSSOM
+	url = ../../NV/CSSOM.git
